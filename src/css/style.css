@@ -1,23 +1,23 @@
-.chat {
-	background-image: url(../images/chat.png);
+.sprite-chat {
+    background-image: url(../images/chat.png);
 }
 
-.compass {
-	background-image: url(../images/compass.png);
+.sprite-compass {
+    background-image: url(../images/compass.png);
 }
 
-.like {
-	background-image: url(../images/like.png);
+.sprite-like {
+    background-image: url(../images/like.png);
 }
 
-.padlock {
-	background-image: url(../images/padlock.png);
+.sprite-padlock {
+    background-image: url(../images/padlock.png);
 }
 
-.pie {
-	background-image: url(../images/pie.png);
+.sprite-pie {
+    background-image: url(../images/pie.png);
 }
 
-.search {
-	background-image: url(../images/search.png);
+.sprite-search {
+    background-image: url(../images/search.png);
 }

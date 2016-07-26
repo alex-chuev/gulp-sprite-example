@@ -1,19 +1,26 @@
 var gulp = require('gulp');
 var sprite = require('gulp-sprite-generator');
 var clean = require('gulp-clean-css');
+var rename = require('gulp-rename');
 
 gulp.task('sprite', function () {
-	var spriteOutput = gulp.src('src/css/*.css')
-		.pipe(sprite({
-			baseUrl: '../images/',
-			spriteSheetName: 'sprite.png',
-			spriteSheetPath: 'dist/images'
-		}));
+    var output = gulp.src('src/css/*.css')
+        .pipe(sprite({
+            baseUrl: '../images',
+            spriteSheetPath: '../images',
+            spriteSheetName: 'sprite.png',
+            algorithm: 'binary-tree'
+        }));
 
-	spriteOutput.css
-		.pipe(clean())
-		.pipe(gulp.dest('dist/css'));
+    output.css
+        .pipe(gulp.dest('dist/css'))
+        .pipe(clean())
+        .pipe(rename({
+            suffix: '.min'
+        }))
+        .pipe(gulp.dest('dist/css'))
+    ;
 
-	spriteOutput.img
-		.pipe(gulp.dest('dist/image'));
+    output.img
+        .pipe(gulp.dest('dist/images'));
 });

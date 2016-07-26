@@ -1,0 +1,35 @@
+.sprite-chat {
+    background-image: url("../images/sprite.png");
+    background-position: -0px -0px;
+    background-size: 96px 64px!important;
+}
+
+.sprite-compass {
+    background-image: url("../images/sprite.png");
+    background-position: -32px -0px;
+    background-size: 96px 64px!important;
+}
+
+.sprite-like {
+    background-image: url("../images/sprite.png");
+    background-position: -64px -32px;
+    background-size: 96px 64px!important;
+}
+
+.sprite-padlock {
+    background-image: url("../images/sprite.png");
+    background-position: -0px -32px;
+    background-size: 96px 64px!important;
+}
+
+.sprite-pie {
+    background-image: url("../images/sprite.png");
+    background-position: -32px -32px;
+    background-size: 96px 64px!important;
+}
+
+.sprite-search {
+    background-image: url("../images/sprite.png");
+    background-position: -64px -0px;
+    background-size: 96px 64px!important;
+}
