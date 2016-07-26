@@ -1,0 +1,13 @@
+{
+  "name": "gulp-sprite-example",
+  "version": "1.0.0",
+  "description": "An example of a sprite generation",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.11",
+    "gulp-sprite-generator": "^0.2.3"
+  },
+  "author": "Alex Chuev <alex@chuev.com>",
+  "license": "ISC"
+}
